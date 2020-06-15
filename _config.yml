@@ -28,8 +28,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: luiz_in
 github_username:  petroskilp
 
-# Build settings
-theme: bulma-clean-theme
+# Build settings #bulma-clean-theme minima
+theme: minima
 plugins:
   - jekyll-feed
 paginate: 5
