@@ -2,6 +2,7 @@
   link: /about/
 - name: Blog
   link: /blog/
+- name: Páginas
   dropdown: 
-    - name: Page 2
-      link: /page-2/
+    - name: Apresentações
+      link: /apresentacoes/workshop_git
