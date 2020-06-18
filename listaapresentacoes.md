@@ -1,9 +1,14 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-title: Professor Luiz Pedro Petroski
-subtitle: Engenharia de Software, Análise de Algoritmos, Sistemas de Informação I, Processamento de Imagens e Programação Orientada a Objetos
+title: Lista de Apresentações
 layout: page
 show_sidebar: true
 ---
-# Olá
+<ul>
+  {% for slide in site.slides %}
+    <li>
+      <h2><a href="{{ slide.url }}" target="_blank">{{ slide.title }}</a></h2>
+    </li>
+  {% endfor %}
+</ul>

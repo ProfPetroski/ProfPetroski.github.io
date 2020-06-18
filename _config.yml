@@ -27,9 +27,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: luiz_in
 github_username:  petroskilp
+favicon: /favicon.ico
 
 # Build settings #bulma-clean-theme minima
-theme: bulma-clean-theme
+# theme: bulma-clean-theme
 remote_theme: chrisrhymes/bulma-clean-theme
 plugins:
   - jekyll-feed
